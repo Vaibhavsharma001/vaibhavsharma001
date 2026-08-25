@@ -61,8 +61,9 @@
   <a href="#-connect-with-me">
     <img src="https://img.shields.io/badge/Connect-0D1117?style=flat&logo=linkedin&logoColor=white" alt="Connect" />
   </a>
----
-## 👨‍💻 About Me
+ <p/>
+  
+ 👨‍💻 About Me
 
 - **Name:** Vaibhav Sharma  
 - **Role:** Python Developer | Full Stack Developer | AI Enthusiast  
