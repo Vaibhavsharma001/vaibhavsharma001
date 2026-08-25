@@ -192,10 +192,3 @@
 
 ---
 
-## 🧾 Services used in this README
-
-- **Typing header:** `readme-typing-svg` → https://github.com/DenverCoder1/readme-typing-svg  
-- **Repo card + GitHub stats:** `github-readme-stats` → https://github.com/anuraghazra/github-readme-stats  
-- **Streak stats:** `github-readme-streak-stats` → https://github.com/DenverCoder1/github-readme-streak-stats  
-- **Activity graph:** `github-readme-activity-graph` → https://github.com/Ashutosh00710/github-readme-activity-graph  
-- **Contribution snake animation:** `snk` (generated via GitHub Actions) → https://github.com/Platane/snk  
