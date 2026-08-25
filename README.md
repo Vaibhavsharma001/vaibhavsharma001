@@ -117,27 +117,10 @@
 
 ## 🚀 Featured Project
 
-<div align="center">
+[![Chatbot_by_Vaibhav](https://github-readme-stats.vercel.app/api/pin/?username=vaibhavsharma001&repo=Chatbot_by_Vaibhav&theme=github_dark&hide_border=true&cache_seconds=86400&v=2)](https://github.com/vaibhavsharma001/Chatbot_by_Vaibhav)
 
-<!-- Project card (auto-generated from GitHub repo metadata) -->
-<a href="https://github.com/vaibhavsharma001/Chatbot_by_Vaibhav">
-  <img
-    src="https://github-readme-stats.vercel.app/api/pin/?username=vaibhavsharma001&repo=Chatbot_by_Vaibhav&theme=github_dark&hide_border=true"
-    alt="Chatbot_by_Vaibhav"
-  />
-</a>
-
-<br/>
-
-<!-- Buttons -->
-<a href="https://github.com/vaibhavsharma001/Chatbot_by_Vaibhav">
-  <img src="https://img.shields.io/badge/Code-GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="Code on GitHub" />
-</a>
-<a href="https://chatbot-by-vaibhav.onrender.com">
-  <img src="https://img.shields.io/badge/Live_Demo-Render-5B21B6?style=for-the-badge&logo=render&logoColor=white" alt="Live Demo on Render" />
-</a>
-
-</div>
+[![Code](https://img.shields.io/badge/Code-GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vaibhavsharma001/Chatbot_by_Vaibhav)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Render-5B21B6?style=for-the-badge&logo=render&logoColor=white)](https://chatbot-by-vaibhav.onrender.com)
 
 ---
 
@@ -145,21 +128,19 @@
 
 | Stats | Top Languages |
 | --- | --- |
-| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vaibhavsharma001&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavsharma001&layout=compact&theme=github_dark&hide_border=true) |
+| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vaibhavsharma001&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&cache_seconds=86400&v=2) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavsharma001&layout=compact&theme=github_dark&hide_border=true&cache_seconds=86400&v=2) |
 
 ---
 
 ## 🔥 GitHub Streak Stats
 
-![GitHub Streak](https://streak-stats.demolab.com?user=vaibhavsharma001&theme=github-dark-blue&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com/?user=vaibhavsharma001&theme=github-dark-blue&hide_border=true&v=2)
+
 ---
 
 ## 📈 Contributions
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhavsharma001&theme=github-compact&hide_border=true&radius=10" alt="Contribution Activity Graph" />
-</div>
-
+![Contribution Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=vaibhavsharma001&theme=github-compact&hide_border=true&radius=10&v=2)
 ### 🐍 Contribution Snake (auto-generated)
 
 <p align="center">
