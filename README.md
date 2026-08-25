@@ -143,19 +143,15 @@
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vaibhavsharma001&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavsharma001&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" />
-</div>
+| Stats | Top Languages |
+| --- | --- |
+| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vaibhavsharma001&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavsharma001&layout=compact&theme=github_dark&hide_border=true) |
 
 ---
 
 ## 🔥 GitHub Streak Stats
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=vaibhavsharma001&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" />
-</div>
-
+![GitHub Streak](https://streak-stats.demolab.com?user=vaibhavsharma001&theme=github-dark-blue&hide_border=true)
 ---
 
 ## 📈 Contributions
