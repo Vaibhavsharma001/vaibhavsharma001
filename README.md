@@ -117,19 +117,36 @@
 
 ## 🚀 Featured Project
 
-[![Chatbot_by_Vaibhav](https://github-readme-stats.vercel.app/api/pin/?username=vaibhavsharma001&repo=Chatbot_by_Vaibhav&theme=github_dark&hide_border=true&cache_seconds=86400&v=2)](https://github.com/vaibhavsharma001/Chatbot_by_Vaibhav)
+<div align="center">
 
-[![Code](https://img.shields.io/badge/Code-GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vaibhavsharma001/Chatbot_by_Vaibhav)
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Render-5B21B6?style=for-the-badge&logo=render&logoColor=white)](https://chatbot-by-vaibhav.onrender.com)
+<table>
+  <tr>
+    <td>
+      <h3>Chatbot_by_Vaibhav</h3>
+      <p>
+        AI Chatbot project (deployed on Render).<br/>
+        <b>Repo:</b> GitHub · <b>Live:</b> Render
+      </p>
+      <p>
+        <a href="https://github.com/vaibhavsharma001/Chatbot_by_Vaibhav">
+          <img src="https://img.shields.io/badge/Code-GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+        <a href="https://chatbot-by-vaibhav.onrender.com">
+          <img src="https://img.shields.io/badge/Live_Demo-Render-5B21B6?style=for-the-badge&logo=render&logoColor=white" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
 
+</div>
 ---
 
 ## 📊 GitHub Stats
 
-| Stats | Top Languages |
-| --- | --- |
-| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vaibhavsharma001&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&cache_seconds=86400&v=2) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavsharma001&layout=compact&theme=github_dark&hide_border=true&cache_seconds=86400&v=2) |
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/assets/stats.svg" alt="GitHub Stats (generated)" />
+</p>
 ---
 
 ## 🔥 GitHub Streak Stats
@@ -140,7 +157,10 @@
 
 ## 📈 Contributions
 
-![Contribution Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=vaibhavsharma001&theme=github-compact&hide_border=true&radius=10&v=2)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/assets/contributions.svg" alt="Contribution graph (generated)" />
+</p>
+
 ### 🐍 Contribution Snake (auto-generated)
 
 <p align="center">
