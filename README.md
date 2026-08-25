@@ -61,9 +61,7 @@
   <a href="#-connect-with-me">
     <img src="https://img.shields.io/badge/Connect-0D1117?style=flat&logo=linkedin&logoColor=white" alt="Connect" />
   </a>
-</p>
 ---
-
 ## 👨‍💻 About Me
 
 - **Name:** Vaibhav Sharma  
