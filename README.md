@@ -39,18 +39,29 @@
   </p>
 
   <!-- Navigation -->
-  <p>
-    <a href="#-about-me">About Me</a> ·
-    <a href="#-tech-stack">Tech Stack</a> ·
-    <a href="#-current-learning">Current Learning</a> ·
-    <a href="#-featured-project">Project</a> ·
-    <a href="#-github-stats">GitHub Stats</a> ·
-    <a href="#-contributions">Contributions</a> ·
-    <a href="#-connect-with-me">Connect</a>
-  </p>
-
-</div>
-
+<p align="center">
+  <a href="#-about-me">
+    <img src="https://img.shields.io/badge/About-0D1117?style=flat&logo=aboutdotme&logoColor=white" alt="About" />
+  </a>
+  <a href="#-tech-stack">
+    <img src="https://img.shields.io/badge/Tech_Stack-0D1117?style=flat&logo=stackshare&logoColor=white" alt="Tech Stack" />
+  </a>
+  <a href="#-current-learning">
+    <img src="https://img.shields.io/badge/Learning-0D1117?style=flat&logo=readthedocs&logoColor=white" alt="Learning" />
+  </a>
+  <a href="#-featured-project">
+    <img src="https://img.shields.io/badge/Project-0D1117?style=flat&logo=github&logoColor=white" alt="Project" />
+  </a>
+  <a href="#-github-stats">
+    <img src="https://img.shields.io/badge/Stats-0D1117?style=flat&logo=github&logoColor=white" alt="Stats" />
+  </a>
+  <a href="#-contributions">
+    <img src="https://img.shields.io/badge/Contributions-0D1117?style=flat&logo=git&logoColor=white" alt="Contributions" />
+  </a>
+  <a href="#-connect-with-me">
+    <img src="https://img.shields.io/badge/Connect-0D1117?style=flat&logo=linkedin&logoColor=white" alt="Connect" />
+  </a>
+</p>
 ---
 
 ## 👨‍💻 About Me
