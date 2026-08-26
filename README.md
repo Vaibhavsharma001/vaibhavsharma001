@@ -1,22 +1,22 @@
 <!--
-Vaibhav Sharma — Advanced GitHub Profile README (Recruiter + Modern + Unique)
+Vaibhav Sharma — Modern / Advanced GitHub Profile README
+Username: vaibhavsharma001
 
-This version avoids unreliable external "stats" services (like vercel-hosted widgets) by
-GENERATING most visuals inside your repo via GitHub Actions.
+This README is designed to be reliable:
+- Stats/Contrib visuals are generated INSIDE this repo into /assets via GitHub Actions
+  (so it doesn’t break when public Vercel widgets go down).
+- Project preview uses GitHub OpenGraph (served by GitHub).
 
-✅ Works well even when external widget sites are down.
+Update later:
+- Portfolio link (currently #)
 -->
 
 <div align="center">
 
-  <!-- Animated hero banner (stored in your repo) -->
-  <img
-    src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/assets/hero.svg"
-    alt="Hero Banner"
-    width="100%"
-  />
+  <!-- Animated Hero Banner (stored in your repo) -->
+  <img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/assets/assets/hero.svg" alt="Hero" width="100%" />
 
-  <!-- Clean animated typing header (external, reliable) -->
+  <!-- Animated typing header -->
   <a href="https://github.com/vaibhavsharma001">
     <img
       src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=30&pause=1100&color=2F81F7&center=true&vCenter=true&width=950&lines=Vaibhav+Sharma;Python+Developer+%7C+Full+Stack+Developer+%7C+AI+Enthusiast;Backend+Engineering+%E2%80%A2+Full+Stack+%E2%80%A2+AI%2FGenAI"
@@ -25,7 +25,7 @@ GENERATING most visuals inside your repo via GitHub Actions.
   </a>
 
   <p>
-    Building clean, scalable apps with <b>Python</b> and <b>backend systems</b>, expanding into <b>full‑stack</b> and <b>AI/Generative AI</b>.
+    I build clean, scalable applications with a focus on <b>Python</b> and <b>backend systems</b>, while growing into <b>full‑stack</b> and <b>AI/Generative AI</b>.
   </p>
 
   <!-- Social buttons -->
@@ -36,26 +36,27 @@ GENERATING most visuals inside your repo via GitHub Actions.
     <a href="https://www.linkedin.com/in/vaibhav-sharma-2b052327a?utm_source=share_via&utm_content=profile&utm_medium=member_android">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
-    <!-- Portfolio (add Vercel URL later) -->
     <a href="#">
       <img src="https://img.shields.io/badge/Portfolio_(Coming_Soon)-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
     </a>
   </p>
 
-  <!-- Badge-style navbar (no ugly underlines) -->
-  <p align="center">
-    <a href="#-about-me"><img src="https://img.shields.io/badge/About-0D1117?style=flat&logo=aboutdotme&logoColor=white" alt="About" /></a>
-    <a href="#-tech-stack"><img src="https://img.shields.io/badge/Tech_Stack-0D1117?style=flat&logo=stackshare&logoColor=white" alt="Tech Stack" /></a>
-    <a href="#-current-learning"><img src="https://img.shields.io/badge/Learning-0D1117?style=flat&logo=readthedocs&logoColor=white" alt="Learning" /></a>
-    <a href="#-featured-project"><img src="https://img.shields.io/badge/Project-0D1117?style=flat&logo=github&logoColor=white" alt="Project" /></a>
-    <a href="#-github-stats"><img src="https://img.shields.io/badge/Stats-0D1117?style=flat&logo=github&logoColor=white" alt="Stats" /></a>
-    <a href="#-contributions"><img src="https://img.shields.io/badge/Contributions-0D1117?style=flat&logo=git&logoColor=white" alt="Contributions" /></a>
-    <a href="#-connect-with-me"><img src="https://img.shields.io/badge/Connect-0D1117?style=flat&logo=linkedin&logoColor=white" alt="Connect" /></a>
+  <!-- Badge-style navbar -->
+  <p>
+    <a href="#about"><img src="https://img.shields.io/badge/About-0D1117?style=flat&logo=aboutdotme&logoColor=white" alt="About" /></a>
+    <a href="#tech-stack"><img src="https://img.shields.io/badge/Tech_Stack-0D1117?style=flat&logo=stackshare&logoColor=white" alt="Tech Stack" /></a>
+    <a href="#learning"><img src="https://img.shields.io/badge/Learning-0D1117?style=flat&logo=readthedocs&logoColor=white" alt="Learning" /></a>
+    <a href="#project"><img src="https://img.shields.io/badge/Project-0D1117?style=flat&logo=github&logoColor=white" alt="Project" /></a>
+    <a href="#stats"><img src="https://img.shields.io/badge/Stats-0D1117?style=flat&logo=github&logoColor=white" alt="Stats" /></a>
+    <a href="#contributions"><img src="https://img.shields.io/badge/Contributions-0D1117?style=flat&logo=git&logoColor=white" alt="Contributions" /></a>
+    <a href="#connect"><img src="https://img.shields.io/badge/Connect-0D1117?style=flat&logo=linkedin&logoColor=white" alt="Connect" /></a>
   </p>
 
 </div>
 
 ---
+
+<a id="about"></a>
 
 ## 👨‍💻 About Me
 
@@ -66,6 +67,8 @@ GENERATING most visuals inside your repo via GitHub Actions.
 - **Goal:** Become a strong software developer and work at an **MNC**
 
 ---
+
+<a id="tech-stack"></a>
 
 ## 🧰 Tech Stack
 
@@ -99,19 +102,23 @@ GENERATING most visuals inside your repo via GitHub Actions.
 
 ---
 
+<a id="learning"></a>
+
 ## 🌱 Current Learning
 
-- **Python OOP:** reusable design, clean architecture basics  
-- **Backend:** APIs, auth, database fundamentals, deployment  
-- **AI/GenAI:** concepts + building small prototypes  
+- **Python OOP:** reusable design, maintainable code structure  
+- **Backend:** REST APIs, auth, databases, deployment fundamentals  
+- **AI/GenAI:** core concepts + building small prototypes  
 
 ---
+
+<a id="project"></a>
 
 ## 🚀 Featured Project
 
 <div align="center">
 
-<!-- GitHub OpenGraph image (served by GitHub itself, very reliable) -->
+<!-- GitHub OpenGraph preview (served by GitHub; reliable) -->
 <a href="https://github.com/vaibhavsharma001/Chatbot_by_Vaibhav">
   <img
     src="https://opengraph.githubassets.com/1/vaibhavsharma001/Chatbot_by_Vaibhav"
@@ -133,45 +140,38 @@ GENERATING most visuals inside your repo via GitHub Actions.
 
 ---
 
-## 📊 GitHub Stats
+<a id="stats"></a>
 
-> These visuals are generated **inside this repo** by GitHub Actions (no Vercel widgets).
+## 📊 GitHub Stats (Auto-generated in this repo)
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/assets/stats.svg" alt="GitHub Metrics Stats" />
-
-</div>
-
-<!-- Summary cards (generated via GitHub Actions) -->
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profile Details" width="900" />
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/profile-summary-card-output/github_dark/3-stats.svg" alt="Stats" width="445" />
-<img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/profile-summary-card-output/github_dark/4-productive-time.svg" alt="Productive Time" width="445" />
+<img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/assets/stats.svg" alt="GitHub Metrics Stats" width="900" />
 
 </div>
 
 ---
 
+<a id="contributions"></a>
+
 ## 📈 Contributions
 
 <div align="center">
 
-<!-- 3D contribution graph (generated via GitHub Actions) -->
-<img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contributions" width="900" />
-
-<br/><br/>
-
-<!-- Isocalendar-like contribution view (generated via GitHub Actions) -->
 <img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/assets/contributions.svg" alt="Contribution Calendar" width="900" />
 
 </div>
 
-### 🐍 Contribution Snake (auto-generated)
+<!-- Optional: 3D contribution graph (keep only if the file exists in your repo) -->
+<details>
+  <summary><b>3D Contribution Graph</b></summary>
+  <br/>
+  <p align="center">
+    <img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contributions" width="900" />
+  </p>
+</details>
+
+### 🐍 Contribution Snake (Auto-generated)
 
 <p align="center">
   <picture>
@@ -182,6 +182,8 @@ GENERATING most visuals inside your repo via GitHub Actions.
 
 ---
 
+<a id="connect"></a>
+
 ## 🤝 Connect With Me
 
 <p>
@@ -191,7 +193,6 @@ GENERATING most visuals inside your repo via GitHub Actions.
   <a href="https://www.linkedin.com/in/vaibhav-sharma-2b052327a?utm_source=share_via&utm_content=profile&utm_medium=member_android">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <!-- Replace # with your Vercel URL after you deploy -->
   <a href="#">
     <img src="https://img.shields.io/badge/Portfolio_(Coming_Soon)-111827?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
@@ -199,13 +200,3 @@ GENERATING most visuals inside your repo via GitHub Actions.
 
 ---
 
-## 🧾 Services / tooling used
-
-### External (minimal)
-- **Typing header:** `readme-typing-svg` → https://github.com/DenverCoder1/readme-typing-svg
-
-### Generated inside your repo via GitHub Actions (recommended)
-- **Metrics SVGs (stats + contributions):** `lowlighter/metrics` → https://github.com/lowlighter/metrics  
-- **Profile summary cards:** `github-profile-summary-cards` → https://github.com/vn7n24fzkq/github-profile-summary-cards  
-- **3D contributions:** `github-profile-3d-contrib` → https://github.com/yoshi389111/github-profile-3d-contrib  
-- **Contribution snake:** `Platane/snk` → https://github.com/Platane/snk
