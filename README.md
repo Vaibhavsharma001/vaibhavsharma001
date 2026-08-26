@@ -4,16 +4,12 @@ Username: vaibhavsharma001
 
 This README is designed to be reliable:
 - Stats/Contrib visuals are generated INSIDE this repo into /assets via GitHub Actions
-  (so it doesn’t break when public Vercel widgets go down).
 - Project preview uses GitHub OpenGraph (served by GitHub).
-
-Update later:
-- Portfolio link (currently #)
 -->
 
 <div align="center">
 
-  <!-- Animated Hero Banner (stored in your repo) -->
+  <!-- Animated Hero Banner -->
   <img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/assets/assets/hero.svg" alt="Hero" width="100%" />
 
   <!-- Animated typing header -->
@@ -36,8 +32,8 @@ Update later:
     <a href="https://www.linkedin.com/in/vaibhav-sharma-2b052327a?utm_source=share_via&utm_content=profile&utm_medium=member_android">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
-    <a href="#">
-      <img src="https://img.shields.io/badge/Portfolio_(Coming_Soon)-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+    <a href="https://vaibhav-portfolio001.vercel.app">
+      <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
     </a>
   </p>
 
@@ -118,7 +114,7 @@ Update later:
 
 <div align="center">
 
-<!-- GitHub OpenGraph preview (served by GitHub; reliable) -->
+<!-- GitHub OpenGraph preview -->
 <a href="https://github.com/vaibhavsharma001/Chatbot_by_Vaibhav">
   <img
     src="https://opengraph.githubassets.com/1/vaibhavsharma001/Chatbot_by_Vaibhav"
@@ -184,8 +180,8 @@ Update later:
   <a href="https://www.linkedin.com/in/vaibhav-sharma-2b052327a?utm_source=share_via&utm_content=profile&utm_medium=member_android">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Portfolio_(Coming_Soon)-111827?style=for-the-badge&logo=vercel&logoColor=white" />
+  <a href="https://vaibhav-portfolio001.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
 </p>
 
