@@ -142,7 +142,7 @@ Update later:
 
 <a id="stats"></a>
 
-## 📊 GitHub Stats (Auto-generated in this repo)
+## 📊 GitHub Stats 
 
 <div align="center">
 
@@ -162,16 +162,7 @@ Update later:
 
 </div>
 
-<!-- Optional: 3D contribution graph (keep only if the file exists in your repo) -->
-<details>
-  <summary><b>3D Contribution Graph</b></summary>
-  <br/>
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contributions" width="900" />
-  </p>
-</details>
-
-### 🐍 Contribution Snake (Auto-generated)
+### 🐍 Contribution Snake 
 
 <p align="center">
   <picture>
