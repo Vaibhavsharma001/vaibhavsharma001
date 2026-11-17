@@ -114,12 +114,15 @@ Explore my repositories to see my projects, coding practice, and development jou
 
 ## Contribution Activity
 
-<div align="center">
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/contribution-graph.svg"
+    width="100%"
+    alt="GitHub contribution line graph"
+  />
+</p>
 
-  <!-- LOCALLY GENERATED CONTRIBUTION METRICS -->
-  <img src="./assets/contributions.svg" width="98%" alt="GitHub contribution activity"/>
 
-</div>
 
 ---
 
