@@ -1,105 +1,158 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#071b2b"/>
-      <stop offset="55%" stop-color="#102d48"/>
-      <stop offset="100%" stop-color="#080e20"/>
+      <stop offset="0%" stop-color="#071a2c"/>
+      <stop offset="60%" stop-color="#102d48"/>
+      <stop offset="100%" stop-color="#090f20"/>
     </linearGradient>
-    <linearGradient id="fuji" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#789bbd"/>
-      <stop offset="100%" stop-color="#172d49"/>
+
+    <linearGradient id="mountain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6386ad"/>
+      <stop offset="100%" stop-color="#142942"/>
     </linearGradient>
-    <radialGradient id="moon">
-      <stop offset="0%" stop-color="#ffc4d4"/>
-      <stop offset="100%" stop-color="#ff739b" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="blur">
+
+    <linearGradient id="textGlow">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#a9d9ff"/>
+    </linearGradient>
+
+    <filter id="glow">
       <feGaussianBlur stdDeviation="15"/>
+    </filter>
+
+    <!-- Text readability shadow -->
+    <filter id="textShadow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.85" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
 
-  <!-- Tokyo night sky -->
+  <!-- Background -->
   <rect width="1200" height="320" fill="url(#bg)"/>
 
   <!-- Stars -->
-  <g fill="#d8edff">
-    <circle cx="80" cy="48" r="1.5"/>
-    <circle cx="220" cy="85" r="1"/>
-    <circle cx="400" cy="38" r="1.5"/>
-    <circle cx="550" cy="78" r="1"/>
-    <circle cx="700" cy="40" r="1.5"/>
-    <circle cx="860" cy="65" r="1"/>
-    <circle cx="1100" cy="45" r="1.5"/>
-    <circle cx="1150" cy="130" r="1"/>
-    <circle cx="310" cy="145" r="1"/>
+  <g fill="#c8e6ff" opacity=".8">
+    <circle cx="100" cy="50" r="1.5"/>
+    <circle cx="260" cy="80" r="1"/>
+    <circle cx="480" cy="40" r="1.5"/>
+    <circle cx="700" cy="65" r="1"/>
+    <circle cx="900" cy="35" r="1.5"/>
+    <circle cx="1100" cy="90" r="1"/>
+    <circle cx="550" cy="130" r="1"/>
   </g>
 
-  <!-- Glowing Japanese moon -->
-  <circle cx="965" cy="115" r="100" fill="#ff739b" opacity=".2" filter="url(#blur)"/>
-  <circle cx="965" cy="115" r="58" fill="url(#moon)" opacity=".9"/>
-
-  <!-- Distant mountains -->
-  <path d="M350 290 L540 175 L730 290 Z" fill="#172c45"/>
-  <path d="M760 290 L970 165 L1200 290 Z" fill="#142a43"/>
+  <!-- Japanese moon -->
+  <circle cx="970" cy="120" r="95" fill="#ff719b" opacity=".17" filter="url(#glow)"/>
+  <circle cx="970" cy="120" r="58" fill="#ff9eb6" opacity=".8"/>
 
   <!-- Mount Fuji -->
-  <path d="M540 290 L790 75 L1040 290 Z" fill="url(#fuji)"/>
-  <path d="M790 75 L756 116 L778 108 L794 125 L810 108 L827 124 Z" fill="#e0eaf5" opacity=".9"/>
+  <path d="M500 290 L780 70 L1060 290 Z" fill="url(#mountain)"/>
+  <path d="M780 70 L750 112 L775 104 L790 120 L810 105 L830 125 Z" fill="#e7f1fc"/>
 
-  <!-- Tokyo skyline -->
+  <!-- Distant mountains -->
+  <path d="M330 290 L520 170 L710 290 Z" fill="#152b45"/>
+  <path d="M850 290 L1040 175 L1200 290 Z" fill="#152a43"/>
+
+  <!-- Tokyo buildings -->
   <g fill="#071522">
-    <rect x="0" y="215" width="75" height="105"/>
-    <rect x="82" y="180" width="65" height="140"/>
-    <rect x="155" y="225" width="90" height="95"/>
-    <rect x="255" y="165" width="70" height="155"/>
-    <rect x="335" y="210" width="85" height="110"/>
-    <rect x="425" y="230" width="55" height="90"/>
-    <rect x="1040" y="200" width="75" height="120"/>
-    <rect x="1120" y="220" width="80" height="100"/>
+    <rect x="0" y="215" width="80" height="105"/>
+    <rect x="90" y="185" width="65" height="135"/>
+    <rect x="165" y="225" width="80" height="95"/>
+    <rect x="255" y="195" width="70" height="125"/>
+    <rect x="1040" y="210" width="70" height="110"/>
+    <rect x="1120" y="225" width="80" height="95"/>
   </g>
 
-  <!-- Tokyo tower -->
-  <path d="M180 320 L215 150 L250 320 Z" fill="#182b42"/>
-  <path d="M196 245 H234 M201 220 H229 M206 195 H224" stroke="#ff789d" stroke-width="3"/>
-  <path d="M215 150 V320" stroke="#ff8eae" stroke-width="2" opacity=".8"/>
+  <!-- Tokyo Tower -->
+  <path d="M175 320 L215 145 L255 320 Z" fill="#152a42"/>
+  <path d="M194 245 H236 M200 215 H230 M207 185 H223"
+        stroke="#ff789e" stroke-width="3"/>
 
   <!-- Building lights -->
-  <g fill="#64bdff" opacity=".8">
-    <path d="M95 200h6v8h-6z M115 200h6v8h-6z M95 220h6v8h-6z M115 220h6v8h-6z"/>
-    <path d="M270 185h6v8h-6z M290 185h6v8h-6z M270 205h6v8h-6z"/>
-    <path d="M1055 220h6v8h-6z M1075 220h6v8h-6z M1055 240h6v8h-6z"/>
+  <g fill="#65baff">
+    <path d="M105 205h6v8h-6z M125 205h6v8h-6z M105 230h6v8h-6z"/>
+    <path d="M270 215h6v8h-6z M290 215h6v8h-6z"/>
+    <path d="M1055 230h6v8h-6z M1075 230h6v8h-6z"/>
   </g>
 
-  <!-- Foreground -->
-  <path d="M0 285 Q300 270 600 288 T1200 280 V320 H0Z" fill="#071321"/>
-
-  <!-- Sakura petals -->
+  <!-- Animated Sakura petals -->
   <g fill="#ffb5d0" opacity=".85">
-    <ellipse cx="130" cy="40" rx="5" ry="3">
-      <animate attributeName="cx" values="130;310;480;130" dur="14s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="40;160;310;40" dur="14s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="rotate" values="0 130 40;360 130 40" dur="5s" repeatCount="indefinite"/>
+
+    <ellipse cx="150" cy="30" rx="5" ry="3">
+      <animate attributeName="cx" values="150;350;150" dur="13s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="30;300;30" dur="13s" repeatCount="indefinite"/>
     </ellipse>
-    <ellipse cx="450" cy="20" rx="5" ry="3">
-      <animate attributeName="cx" values="450;600;750;450" dur="17s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="20;150;300;20" dur="17s" repeatCount="indefinite"/>
+
+    <ellipse cx="450" cy="50" rx="5" ry="3">
+      <animate attributeName="cx" values="450;600;450" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="50;300;50" dur="16s" repeatCount="indefinite"/>
     </ellipse>
-    <ellipse cx="1080" cy="50" rx="5" ry="3">
-      <animate attributeName="cx" values="1080;930;800;1080" dur="15s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="50;170;310;50" dur="15s" repeatCount="indefinite"/>
+
+    <ellipse cx="1100" cy="40" rx="5" ry="3">
+      <animate attributeName="cx" values="1100;900;1100" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="40;300;40" dur="14s" repeatCount="indefinite"/>
     </ellipse>
-    <ellipse cx="650" cy="80" rx="4" ry="3">
-      <animate attributeName="cy" values="80;310;80" dur="12s" repeatCount="indefinite"/>
-      <animate attributeName="cx" values="650;780;650" dur="12s" repeatCount="indefinite"/>
+
+    <ellipse cx="650" cy="20" rx="4" ry="3">
+      <animate attributeName="cy" values="20;300;20" dur="17s" repeatCount="indefinite"/>
     </ellipse>
-    <ellipse cx="300" cy="110" rx="4" ry="3">
-      <animate attributeName="cy" values="110;300;110" dur="16s" repeatCount="indefinite"/>
-    </ellipse>
+
   </g>
 
-  <!-- Animated neon horizon -->
-  <path d="M0 285 Q600 270 1200 285" fill="none" stroke="#328cff" stroke-width="2">
-    <animate attributeName="opacity" values=".2;.9;.2" dur="4s" repeatCount="indefinite"/>
+  <!-- Name -->
+  <text x="75" y="145"
+        fill="url(#textGlow)"
+        font-family="Arial, sans-serif"
+        font-size="47"
+        font-weight="bold"
+        filter="url(#textShadow)">
+    Vaibhav Sharma
+  </text>
+
+  <!-- Professional tagline -->
+  <text x="78" y="190"
+        fill="#ffffff"
+        font-family="Arial, sans-serif"
+        font-size="21"
+        font-weight="500"
+        filter="url(#textShadow)">
+    Python • Backend • Full Stack • AI/GenAI
+  </text>
+
+  <!-- Improved visible subtitle -->
+  <text x="78" y="225"
+        fill="#ffffff"
+        font-family="Arial, sans-serif"
+        font-size="19"
+        font-weight="500"
+        letter-spacing="0.5"
+        filter="url(#textShadow)">
+    Building scalable software. Exploring intelligent systems.
+  </text>
+
+  <!-- Animated underline -->
+  <rect x="78" y="244" width="360" height="5" rx="3" fill="#2f81f7">
+    <animate attributeName="width"
+             values="80;360;80"
+             dur="5s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Animated horizon glow -->
+  <path d="M0 290 Q600 270 1200 290"
+        fill="none"
+        stroke="#398fff"
+        stroke-width="2">
+    <animate attributeName="opacity"
+             values=".2;.9;.2"
+             dur="4s"
+             repeatCount="indefinite"/>
   </path>
+
 </svg>
