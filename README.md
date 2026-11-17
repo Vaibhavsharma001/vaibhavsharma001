@@ -1,189 +1,106 @@
-<!--
-Vaibhav Sharma — Modern / Advanced GitHub Profile README
-Username: vaibhavsharma001
 
-This README is designed to be reliable:
-- Stats/Contrib visuals are generated INSIDE this repo into /assets via GitHub Actions
-- Project preview uses GitHub OpenGraph (served by GitHub).
--->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071a2b"/>
+      <stop offset="55%" stop-color="#102d45"/>
+      <stop offset="100%" stop-color="#090e20"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#315b83"/>
+      <stop offset="100%" stop-color="#101d35"/>
+    </linearGradient>
+    <radialGradient id="sun">
+      <stop offset="0%" stop-color="#ffb4a2" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#ff668c" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
 
-<div align="center">
+  <!-- Background -->
+  <rect width="1200" height="320" fill="url(#bg)"/>
 
-  <!-- Animated Hero Banner -->
-  <img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/assets/assets/hero.svg" alt="Hero" width="100%" />
+  <!-- Stars -->
+  <g fill="#b9dfff">
+    <circle cx="90" cy="48" r="1.5"/>
+    <circle cx="260" cy="75" r="1"/>
+    <circle cx="470" cy="35" r="1.5"/>
+    <circle cx="720" cy="55" r="1"/>
+    <circle cx="960" cy="42" r="1.5"/>
+    <circle cx="1110" cy="100" r="1"/>
+    <circle cx="850" cy="125" r="1"/>
+    <circle cx="350" cy="125" r="1"/>
+  </g>
 
-  <!-- Animated typing header -->
-  <a href="https://github.com/vaibhavsharma001">
-    <img
-      src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=30&pause=1100&color=2F81F7&center=true&vCenter=true&width=950&lines=Vaibhav+Sharma;Python+Developer+%7C+Full+Stack+Developer+%7C+AI+Enthusiast;Backend+Engineering+%E2%80%A2+Full+Stack+%E2%80%A2+AI%2FGenAI"
-      alt="Typing SVG"
-    />
-  </a>
+  <!-- Glowing moon -->
+  <circle cx="970" cy="115" r="95" fill="#ff668c" opacity=".12" filter="url(#glow)"/>
+  <circle cx="970" cy="115" r="63" fill="#ff9eaa" opacity=".75"/>
 
-  <p>
-    I build clean, scalable applications with a focus on <b>Python</b> and <b>backend systems</b>, while growing into <b>full‑stack</b> and <b>AI/Generative AI</b>.
-  </p>
+  <!-- Mount Fuji -->
+  <path d="M570 275 L780 95 L990 275 Z" fill="url(#mountain)"/>
+  <path d="M780 95 L750 130 L780 119 L805 140 L780 95 Z" fill="#d8e7f5" opacity=".9"/>
 
-  <!-- Social buttons -->
-  <p>
-    <a href="https://github.com/vaibhavsharma001">
-      <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-    </a>
-    <a href="https://www.linkedin.com/in/vaibhav-sharma-2b052327a?utm_source=share_via&utm_content=profile&utm_medium=member_android">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-    </a>
-    <a href="https://vaibhav-portfolio001.vercel.app">
-      <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
-    </a>
-  </p>
+  <!-- Distant mountains -->
+  <path d="M400 275 L620 155 L810 275 Z" fill="#172e49"/>
+  <path d="M850 275 L1030 175 L1200 275 Z" fill="#152a43"/>
 
-  <!-- Badge-style navbar -->
-  <p>
-    <a href="#about"><img src="https://img.shields.io/badge/About-0D1117?style=flat&logo=aboutdotme&logoColor=white" alt="About" /></a>
-    <a href="#tech-stack"><img src="https://img.shields.io/badge/Tech_Stack-0D1117?style=flat&logo=stackshare&logoColor=white" alt="Tech Stack" /></a>
-    <a href="#learning"><img src="https://img.shields.io/badge/Learning-0D1117?style=flat&logo=readthedocs&logoColor=white" alt="Learning" /></a>
-    <a href="#project"><img src="https://img.shields.io/badge/Project-0D1117?style=flat&logo=github&logoColor=white" alt="Project" /></a>
-    <a href="#stats"><img src="https://img.shields.io/badge/Stats-0D1117?style=flat&logo=github&logoColor=white" alt="Stats" /></a>
-    <a href="#contributions"><img src="https://img.shields.io/badge/Contributions-0D1117?style=flat&logo=git&logoColor=white" alt="Contributions" /></a>
-    <a href="#connect"><img src="https://img.shields.io/badge/Connect-0D1117?style=flat&logo=linkedin&logoColor=white" alt="Connect" /></a>
-  </p>
+  <!-- Tokyo skyline -->
+  <g fill="#081525" opacity=".95">
+    <rect x="0" y="215" width="80" height="105"/>
+    <rect x="90" y="185" width="65" height="135"/>
+    <rect x="165" y="225" width="90" height="95"/>
+    <rect x="260" y="170" width="65" height="150"/>
+    <rect x="335" y="210" width="80" height="110"/>
+    <rect x="1040" y="195" width="75" height="125"/>
+    <rect x="1125" y="225" width="75" height="95"/>
+  </g>
 
-</div>
+  <!-- Building lights -->
+  <g fill="#58baff" opacity=".7">
+    <path d="M105 205h5v6h-5z M120 205h5v6h-5z M105 225h5v6h-5z M120 225h5v6h-5z"/>
+    <path d="M275 190h5v7h-5z M295 190h5v7h-5z M275 210h5v7h-5z"/>
+    <path d="M1060 215h5v6h-5z M1080 215h5v6h-5z M1060 235h5v6h-5z"/>
+  </g>
 
----
+  <!-- Horizon -->
+  <path d="M0 276 Q300 265 600 278 T1200 276" fill="none" stroke="#4da9e9" stroke-opacity=".5"/>
 
-<a id="about"></a>
+  <!-- Moving sakura petals -->
+  <g fill="#ffb5cf" opacity=".8">
+    <ellipse cx="150" cy="60" rx="5" ry="3">
+      <animate attributeName="cy" values="60;290;60" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="150;280;150" dur="12s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 150 60" to="360 150 60" dur="6s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="420" cy="90" rx="5" ry="3">
+      <animate attributeName="cy" values="90;300;90" dur="15s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="420;540;420" dur="15s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="1100" cy="40" rx="5" ry="3">
+      <animate attributeName="cy" values="40;290;40" dur="13s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="1100;930;1100" dur="13s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="700" cy="25" rx="4" ry="3">
+      <animate attributeName="cy" values="25;300;25" dur="17s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
 
-## 👨‍💻 About Me
+  <!-- Subtle horizontal glow -->
+  <path d="M0 290 Q600 260 1200 290" stroke="#299bff" stroke-width="2" opacity=".5" fill="none">
+    <animate attributeName="opacity" values=".2;.8;.2" dur="5s" repeatCount="indefinite"/>
+  </path>
 
-- **Name:** Vaibhav Sharma  
-- **Role:** Python Developer | Full Stack Developer | AI Enthusiast  
-- **Main focus:** Python · Backend Development · Full Stack · AI/Generative AI  
-- **Currently learning:** Python OOP · Backend Engineering · AI/GenAI  
-- **Goal:** Become a strong software developer and work at an **MNC**
+  <!-- Text -->
+  <text x="60" y="155" fill="#ffffff" font-family="Arial, sans-serif" font-size="43" font-weight="bold">
+    Vaibhav Sharma
+  </text>
+  <text x="62" y="198" fill="#b9dfff" font-family="Arial, sans-serif" font-size="19">
+    Python • Backend • Full Stack • AI/GenAI
+  </text>
 
----
-
-<a id="tech-stack"></a>
-
-## 🧰 Tech Stack
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-<img src="https://img.shields.io/badge/SQL-0B5563?style=for-the-badge&logo=databricks&logoColor=white" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/Django-0C4B33?style=for-the-badge&logo=django&logoColor=white" />
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Docker-0DB7ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/AI%20%2F%20GenAI-111827?style=for-the-badge&logo=openai&logoColor=white" />
-
-</div>
-
----
-
-<a id="learning"></a>
-
-## 🌱 Current Learning
-
-- **Python OOP:** reusable design, maintainable code structure  
-- **Backend:** REST APIs, auth, databases, deployment fundamentals  
-- **AI/GenAI:** core concepts + building small prototypes  
-
----
-
-<a id="project"></a>
-
-## 🚀 Featured Project
-
-<div align="center">
-
-<!-- GitHub OpenGraph preview -->
-<a href="https://github.com/vaibhavsharma001/Chatbot_by_Vaibhav">
-  <img
-    src="https://opengraph.githubassets.com/1/vaibhavsharma001/Chatbot_by_Vaibhav"
-    alt="Chatbot_by_Vaibhav"
-    width="900"
-  />
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/vaibhavsharma001/Chatbot_by_Vaibhav">
-  <img src="https://img.shields.io/badge/Code-GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="Code" />
-</a>
-<a href="https://chatbot-by-vaibhav.onrender.com">
-  <img src="https://img.shields.io/badge/Live_Demo-Render-5B21B6?style=for-the-badge&logo=render&logoColor=white" alt="Live Demo" />
-</a>
-
-</div>
-
----
-
-<a id="stats"></a>
-
-## 📊 GitHub Stats 
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/assets/stats.svg" alt="GitHub Metrics Stats" width="900" />
-
-</div>
-
----
-
-<a id="contributions"></a>
-
-## 📈 Contributions
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/assets/contributions.svg" alt="Contribution Calendar" width="900" />
-
-</div>
-
-### 🐍 Contribution Snake 
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/output/github-contribution-grid-snake-dark.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/output/github-contribution-grid-snake.svg" />
-  </picture>
-</p>
-
----
-
-<a id="connect"></a>
-
-## 🤝 Connect With Me
-
-<p>
-  <a href="https://github.com/vaibhavsharma001">
-    <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/vaibhav-sharma-2b052327a?utm_source=share_via&utm_content=profile&utm_medium=member_android">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://vaibhav-portfolio001.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-</p>
-
----
-
+  <rect x="62" y="218" width="330" height="5" rx="3" fill="#2f81f7">
+    <animate attributeName="width" values="100;330;100" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
