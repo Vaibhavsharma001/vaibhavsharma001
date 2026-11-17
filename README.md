@@ -98,14 +98,14 @@ Explore my repositories to see my projects, coding practice, and development jou
 
 <div align="center">
 
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=vaibhavsharma001&show_icons=true&hide_border=true&bg_color=102B32&title_color=C5D5D2&text_color=F1F4EF&icon_color=739A9B&ring_color=739A9B&include_all_commits=true" alt="GitHub statistics"/>
-
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavsharma001&layout=compact&hide_border=true&bg_color=102B32&title_color=C5D5D2&text_color=F1F4EF" alt="Most used programming languages"/>
+  <!-- LOCALLY GENERATED GITHUB STATISTICS -->
+  <img src="./assets/stats.svg" width="95%" alt="GitHub Statistics"/>
 
 </div>
 
 <div align="center">
 
+  <!-- GITHUB STREAK -->
   <img width="95%" src="https://github-readme-streak-stats.herokuapp.com/?user=vaibhavsharma001&hide_border=true&background=102B32&ring=739A9B&fire=C5D5D2&currStreakLabel=C5D5D2&sideLabels=F1F4EF&currStreakNum=F1F4EF&sideNums=F1F4EF&dates=739A9B" alt="GitHub contribution streak"/>
 
 </div>
@@ -116,16 +116,8 @@ Explore my repositories to see my projects, coding practice, and development jou
 
 <div align="center">
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhavsharma001&bg_color=102B32&color=F1F4EF&line=739A9B&point=C5D5D2&area=true&hide_border=true" width="98%" alt="GitHub contribution activity graph"/>
-
-  <br/><br/>
-
-  <!-- CONTRIBUTION SNAKE -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/output/github-contribution-grid-snake.svg"/>
-    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-  </picture>
+  <!-- LOCALLY GENERATED CONTRIBUTION METRICS -->
+  <img src="./assets/contributions.svg" width="98%" alt="GitHub contribution activity"/>
 
 </div>
 
