@@ -14,7 +14,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Main GitHub statistics and programming languages
       - name: Generate GitHub Statistics
         uses: lowlighter/metrics@latest
         with:
@@ -22,21 +21,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
           base: header
-          config_order: base.header, isocalendar, languages
+          config_order: base.header
 
-          plugin_isocalendar: yes
-
-          plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_limit: 8
-          plugin_languages_details: percentage, bytes-size
-          plugin_languages_sections: most-used
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 7.5
-
-          commits_authoring: Vaibhav Sharma, vaibhavsharma001
-
-      # Contribution calendar
       - name: Generate Contribution Calendar
         uses: lowlighter/metrics@latest
         with:
@@ -45,5 +31,4 @@ jobs:
 
           base: ""
           plugin_isocalendar: yes
-
           plugin_isocalendar_duration: half-year
