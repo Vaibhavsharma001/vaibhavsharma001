@@ -1,189 +1,171 @@
-<!--
-Vaibhav Sharma — Modern / Advanced GitHub Profile README
-Username: vaibhavsharma001
 
-This README is designed to be reliable:
-- Stats/Contrib visuals are generated INSIDE this repo into /assets via GitHub Actions
-- Project preview uses GitHub OpenGraph (served by GitHub).
+<!--
+  Vaibhav Sharma | GitHub Profile README
+  Theme: Japanese Ocean
+  Palette: Deep Teal • Ocean Blue • Mist • Silver White
 -->
 
 <div align="center">
 
-  <!-- Animated Hero Banner -->
-  <img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/assets/assets/hero.svg" alt="Hero" width="100%" />
+  <!-- JAPANESE LANDSCAPE HERO -->
+  <img src="assets/assets/hero.svg" width="100%" alt="Japanese landscape featuring Mount Fuji and ocean scenery"/>
 
-  <!-- Animated typing header -->
-  <a href="https://github.com/vaibhavsharma001">
-    <img
-      src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=30&pause=1100&color=2F81F7&center=true&vCenter=true&width=950&lines=Vaibhav+Sharma;Python+Developer+%7C+Full+Stack+Developer+%7C+AI+Enthusiast;Backend+Engineering+%E2%80%A2+Full+Stack+%E2%80%A2+AI%2FGenAI"
-      alt="Typing SVG"
-    />
+  <br/>
+
+  <!-- TYPING INTRO -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Roboto+Mono&weight=600&size=25&pause=1200&color=C5D5D2&center=true&vCenter=true&width=1000&height=65&lines=Vaibhav+Sharma;Python+Developer+%7C+Full+Stack+Developer;Backend+Engineering+%7C+AI+%2F+GenAI;Building+Scalable+Software" alt="Vaibhav Sharma - Developer introduction"/>
   </a>
 
+  <br/>
+
+  <!-- PROFESSIONAL DEVELOPER IDENTITY -->
   <p>
-    I build clean, scalable applications with a focus on <b>Python</b> and <b>backend systems</b>, while growing into <b>full‑stack</b> and <b>AI/Generative AI</b>.
+    <img src="https://img.shields.io/badge/PYTHON_DEVELOPMENT-739A9B?style=flat-square&labelColor=102B32" alt="Python Development"/>
+    <img src="https://img.shields.io/badge/FULL_STACK_ENGINEERING-20515A?style=flat-square&labelColor=102B32" alt="Full Stack Engineering"/>
+    <img src="https://img.shields.io/badge/AI_%26_GENAI-344B43?style=flat-square&labelColor=102B32" alt="AI and Generative AI"/>
   </p>
 
-  <!-- Social buttons -->
   <p>
-    <a href="https://github.com/vaibhavsharma001">
-      <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-    </a>
-    <a href="https://www.linkedin.com/in/vaibhav-sharma-2b052327a?utm_source=share_via&utm_content=profile&utm_medium=member_android">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-    </a>
-    <a href="https://vaibhav-portfolio001.vercel.app">
-      <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
-    </a>
-  </p>
-
-  <!-- Badge-style navbar -->
-  <p>
-    <a href="#about"><img src="https://img.shields.io/badge/About-0D1117?style=flat&logo=aboutdotme&logoColor=white" alt="About" /></a>
-    <a href="#tech-stack"><img src="https://img.shields.io/badge/Tech_Stack-0D1117?style=flat&logo=stackshare&logoColor=white" alt="Tech Stack" /></a>
-    <a href="#learning"><img src="https://img.shields.io/badge/Learning-0D1117?style=flat&logo=readthedocs&logoColor=white" alt="Learning" /></a>
-    <a href="#project"><img src="https://img.shields.io/badge/Project-0D1117?style=flat&logo=github&logoColor=white" alt="Project" /></a>
-    <a href="#stats"><img src="https://img.shields.io/badge/Stats-0D1117?style=flat&logo=github&logoColor=white" alt="Stats" /></a>
-    <a href="#contributions"><img src="https://img.shields.io/badge/Contributions-0D1117?style=flat&logo=git&logoColor=white" alt="Contributions" /></a>
-    <a href="#connect"><img src="https://img.shields.io/badge/Connect-0D1117?style=flat&logo=linkedin&logoColor=white" alt="Connect" /></a>
+    <i>Building scalable software. Exploring intelligent systems.</i>
   </p>
 
 </div>
 
 ---
 
-<a id="about"></a>
+## About Me
 
-## 👨‍💻 About Me
+I'm a Computer Science undergraduate passionate about building practical software solutions and exploring intelligent technologies.
 
-- **Name:** Vaibhav Sharma  
-- **Role:** Python Developer | Full Stack Developer | AI Enthusiast  
-- **Main focus:** Python · Backend Development · Full Stack · AI/Generative AI  
-- **Currently learning:** Python OOP · Backend Engineering · AI/GenAI  
-- **Goal:** Become a strong software developer and work at an **MNC**
+- Currently pursuing **B.Tech in Computer Science**
+- Focused on **Python Development and Full Stack Development**
+- Exploring **Artificial Intelligence and Generative AI**
+- Interested in backend systems, APIs, and scalable applications
+- Continuously learning through hands-on projects and problem-solving
 
----
-
-<a id="tech-stack"></a>
-
-## 🧰 Tech Stack
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-<img src="https://img.shields.io/badge/SQL-0B5563?style=for-the-badge&logo=databricks&logoColor=white" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/Django-0C4B33?style=for-the-badge&logo=django&logoColor=white" />
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Docker-0DB7ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/AI%20%2F%20GenAI-111827?style=for-the-badge&logo=openai&logoColor=white" />
-
-</div>
+My goal is to develop strong engineering fundamentals and build software that solves real-world problems.
 
 ---
 
-<a id="learning"></a>
+## Tech Stack
 
-## 🌱 Current Learning
-
-- **Python OOP:** reusable design, maintainable code structure  
-- **Backend:** REST APIs, auth, databases, deployment fundamentals  
-- **AI/GenAI:** core concepts + building small prototypes  
-
----
-
-<a id="project"></a>
-
-## 🚀 Featured Project
-
-<div align="center">
-
-<!-- GitHub OpenGraph preview -->
-<a href="https://github.com/vaibhavsharma001/Chatbot_by_Vaibhav">
-  <img
-    src="https://opengraph.githubassets.com/1/vaibhavsharma001/Chatbot_by_Vaibhav"
-    alt="Chatbot_by_Vaibhav"
-    width="900"
-  />
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/vaibhavsharma001/Chatbot_by_Vaibhav">
-  <img src="https://img.shields.io/badge/Code-GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="Code" />
-</a>
-<a href="https://chatbot-by-vaibhav.onrender.com">
-  <img src="https://img.shields.io/badge/Live_Demo-Render-5B21B6?style=for-the-badge&logo=render&logoColor=white" alt="Live Demo" />
-</a>
-
-</div>
-
----
-
-<a id="stats"></a>
-
-## 📊 GitHub Stats 
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/assets/stats.svg" alt="GitHub Metrics Stats" width="900" />
-
-</div>
-
----
-
-<a id="contributions"></a>
-
-## 📈 Contributions
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/main/assets/contributions.svg" alt="Contribution Calendar" width="900" />
-
-</div>
-
-### 🐍 Contribution Snake 
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/output/github-contribution-grid-snake-dark.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/output/github-contribution-grid-snake.svg" />
-  </picture>
-</p>
-
----
-
-<a id="connect"></a>
-
-## 🤝 Connect With Me
+### Programming Languages
 
 <p>
-  <a href="https://github.com/vaibhavsharma001">
-    <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/vaibhav-sharma-2b052327a?utm_source=share_via&utm_content=profile&utm_medium=member_android">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://vaibhav-portfolio001.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=python,java,html,css,js,ts&theme=dark" alt="Python, Java, HTML, CSS, JavaScript and TypeScript"/>
+</p>
+
+### Frameworks & Libraries
+
+<p>
+  <img src="https://skillicons.dev/icons?i=django,fastapi,flask,react,nextjs,tailwind&theme=dark" alt="Django, FastAPI, Flask, React, Next.js and Tailwind CSS"/>
+</p>
+
+### Databases & Tools
+
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,git,github,vscode,docker&theme=dark" alt="MySQL, PostgreSQL, MongoDB, Git, GitHub, VS Code and Docker"/>
+</p>
+
+### AI & Data Technologies
+
+<p>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/Matplotlib-20515A?style=for-the-badge&logo=python&logoColor=white" alt="Matplotlib"/>
+  <img src="https://img.shields.io/badge/Seaborn-739A9B?style=for-the-badge&logo=python&logoColor=white" alt="Seaborn"/>
+  <img src="https://img.shields.io/badge/Generative_AI-344B43?style=for-the-badge&logo=openai&logoColor=white" alt="Generative AI"/>
 </p>
 
 ---
 
+## Projects & Development
+
+Explore my repositories to see my projects, coding practice, and development journey.
+
+<div align="center">
+
+  <a href="https://github.com/vaibhavsharma001?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore_My_Repositories-20515A?style=for-the-badge&logo=github&logoColor=white&labelColor=102B32" alt="Explore GitHub repositories"/>
+  </a>
+
+</div>
+
+---
+
+## GitHub Statistics
+
+<div align="center">
+
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=vaibhavsharma001&show_icons=true&hide_border=true&bg_color=102B32&title_color=C5D5D2&text_color=F1F4EF&icon_color=739A9B&ring_color=739A9B&include_all_commits=true" alt="GitHub statistics"/>
+
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavsharma001&layout=compact&hide_border=true&bg_color=102B32&title_color=C5D5D2&text_color=F1F4EF" alt="Most used programming languages"/>
+
+</div>
+
+<div align="center">
+
+  <img width="95%" src="https://github-readme-streak-stats.herokuapp.com/?user=vaibhavsharma001&hide_border=true&background=102B32&ring=739A9B&fire=C5D5D2&currStreakLabel=C5D5D2&sideLabels=F1F4EF&currStreakNum=F1F4EF&sideNums=F1F4EF&dates=739A9B" alt="GitHub contribution streak"/>
+
+</div>
+
+---
+
+## Contribution Activity
+
+<div align="center">
+
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhavsharma001&bg_color=102B32&color=F1F4EF&line=739A9B&point=C5D5D2&area=true&hide_border=true" width="98%" alt="GitHub contribution activity graph"/>
+
+  <br/><br/>
+
+  <!-- CONTRIBUTION SNAKE -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/output/github-contribution-grid-snake.svg"/>
+    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/vaibhavsharma001/vaibhavsharma001/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+  </picture>
+
+</div>
+
+---
+
+## Connect With Me
+
+<div align="center">
+
+  <a href="https://www.linkedin.com/in/vaibhav-sharma-2b052327a">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-20515A?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=102B32" alt="LinkedIn"/>
+  </a>
+
+  <a href="https://github.com/vaibhavsharma001">
+    <img src="https://img.shields.io/badge/GitHub-Follow-739A9B?style=for-the-badge&logo=github&logoColor=white&labelColor=102B32" alt="GitHub"/>
+  </a>
+
+  <a href="mailto:vaibhav53091@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-C5D5D2?style=for-the-badge&logo=gmail&logoColor=white&labelColor=102B32" alt="Email"/>
+  </a>
+
+  <a href="https://vaibhav-portfolio001.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-Explore-344B43?style=for-the-badge&logo=vercel&logoColor=white&labelColor=102B32" alt="Portfolio"/>
+  </a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+  <!-- PROFILE VISIT COUNTER -->
+  <img src="https://komarev.com/ghpvc/?username=vaibhavsharma001&style=flat-square&color=20515A&label=PROFILE+VIEWS" alt="Profile views"/>
+
+  <br/><br/>
+
+  <img src="https://img.shields.io/badge/KEEP_BUILDING-102B32?style=flat-square&logo=github&logoColor=C5D5D2" alt="Keep building"/>
+
+  <br/><br/>
+
+  <i>Consistency creates excellence.</i>
+
+</div>
