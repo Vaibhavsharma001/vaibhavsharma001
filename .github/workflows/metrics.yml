@@ -23,6 +23,9 @@ jobs:
           base: header
           config_order: base.header
 
+          # Explicitly disable programming language statistics
+          plugin_languages: no
+
       - name: Generate Contribution Calendar
         uses: lowlighter/metrics@latest
         with:
